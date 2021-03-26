@@ -3,7 +3,7 @@
 
 
 
-   <a href="https://movie.readywebapps.com/" terget ="_blank">Live website URL </a>
+   <a href="https://movie.readywebapps.com/movies/16/genres" terget ="_blank">Live website URL </a>
     
     
  <h3>Step to run this project </h3>
@@ -24,7 +24,7 @@
 <h3>Command to save all categories and movie list in Database</h3>
 <ol>
     <li>Run the commands </li>
- <li>$ php artisan tinker </li>
+ <li> php artisan tinker </li>
  <li> $controller = app()->make('App\Http\Controllers\SaveDataController'); </li>
  <li>  app()->call([$controller, 'save'], []); </li>
     
