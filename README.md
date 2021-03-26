@@ -1,9 +1,8 @@
 <h3>Movie Applications Using http://themoviedb.org/ API</h3>
-<p align="center"><img src="https://prnt.sc/10vxzcs" width="400"></p>
+<p align="center"><img src="https://movie.readywebapps.com/img.png" width="400"></p>
 
 
- 
-   <img src="https://i.pinimg.com/originals/15/08/69/15086962d8818c3ac4e99868f0e55290.png">
+
    <a href="https://www.youtube.com/watch?v=wnlELoZsBpQ" terget ="_blank"> Youtube Link to watch video of this project output</a>
     
     
