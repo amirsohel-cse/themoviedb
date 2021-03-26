@@ -21,7 +21,7 @@
  <li> run:  php artisan serve </li>
 </ol>
 
-<h3>Comand to save all movie category and movie list by category  in Database</h3>
+<h3>Command to save all categories and movie list in Database</h3>
 <ol>
     <li>Run the commands </li>
  <li>$ php artisan tinker </li>
