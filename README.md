@@ -9,7 +9,7 @@
  <h3>Step to run this project </h3>
    
 <ol>
- <li> Download the Project </li>
+ <li> Download/Clone the Project </li>
  <li> Edit .env file </li>
  <li> Change Database settings in .env file </li>
     
