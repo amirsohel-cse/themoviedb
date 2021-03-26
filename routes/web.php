@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','MoviesController@index')->name('movies.index');
+Route::get('movies/{gen_id}/genres','MoviesController@movies')->name('movies.list');
