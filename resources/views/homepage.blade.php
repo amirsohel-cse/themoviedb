@@ -40,8 +40,10 @@
 </nav>
 
 <div class="container" style="margin-top:30px">
+    @if($movies)
     <h4>Movie List for selected category</h4>
     <br>
+    @endif
     <div class="row">
         @foreach($movies as $movie)
         <div class="col-sm-4">
