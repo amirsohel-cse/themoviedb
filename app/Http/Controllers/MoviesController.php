@@ -19,7 +19,7 @@ class MoviesController extends Controller
             ->json()['genres'];
 
         //create or update category list
-        $this->create_category($genres);
+      //  $this->create_category($genres);
 
         return view('homepage',compact('genres','movies'));
     }
@@ -37,24 +37,7 @@ class MoviesController extends Controller
 
         //  dump($movies);
 
-        $this->create_movies($movies);
         return view('homepage',compact('movies','genres'));
     }
 
-    // method to create or update category in database
-    public function create_category($genres)
-    {
-       foreach ($genres as $genre)
-        $cat = Category::updateOrCreate($genre);
-
-    }
-    // method to create or update movies list in database
-    public function create_movies($movies)
-    {
-        foreach ($movies as $movie) {
-        $movie['genre_ids']=implode("|", $movie['genre_ids']);
-
-            Movie::updateOrCreate($movie);
-        }
-    }
 }

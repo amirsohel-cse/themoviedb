@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','MoviesController@index')->name('movies.index');
 Route::get('movies/{gen_id}/genres','MoviesController@movies')->name('movies.list');
+
+
+Route::get('/save_data','SaveDataController@save')->name('save.data');
